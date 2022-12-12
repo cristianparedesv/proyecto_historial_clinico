@@ -1,0 +1,447 @@
+
+
+		/*background-color: #F3F2EF;*/
+
+/* ==================================== */
+
+		:root {
+			--checkedRadioColor: rgba(253, 255, 7, 0.4);
+			--setBorder: 1px solid blue;
+			/*
+			--mainFontSize: 16px;
+			--mainFontFamily: "Arial";
+			*/
+		}
+
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial;
+		}
+
+		.con-principal input, select {
+			background-color: rgba(17, 56, 236, 0.04);
+			border: none;
+		}
+		.con-principal option {background-color: white;}
+
+		.con-1 label {
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			height: 100%;
+			display: flex;
+			align-items: center;		
+		}
+		.con-1 .con-escuela-profesional label {border-left: none;}
+
+		.con-2 label {
+			border-right: 1px solid black;
+			height: 100%;
+			display: flex;
+			align-items: center;
+		}
+
+
+		.con-a4 {
+			width: 21cm;
+			height: 29.7cm;
+			margin: 0 auto;
+			/*border: 1px solid black;*/
+			/*padding: 20px;PADDING DEFAULT, CAMBIA AL IMPRIMIR 4A*/
+		}
+
+		.con-principal {
+			/*border: 1px solid black;DESACTIVAR*/
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+
+		}
+
+		/* Clase Estilos Boxes */
+		.es-boxes {
+			width: 100%;
+			margin: 0 auto;
+			/*background-color: lightgreen;DESACTIVAR*/
+			/*height: 100%;*/
+		}
+
+		/* Clase Logos */
+		.es-logos {
+			height: 80px;
+		}
+
+		/* Estilos Header */
+		.con-header {
+			display: flex;
+			/*background-color: skyblue;*/
+		}
+
+
+		/* Estilos Títulos */
+
+		.con-titulos {
+			/*background-color: yellow;*/
+			width: 100%;
+			margin: auto 0;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 17px;
+			font-weight: normal;
+		}
+
+		/* Clase Titulos de Boxes */
+
+
+		#con-titulo-form {
+			border: 1px solid black;
+			text-align: center;
+			margin: 20px 0 10px 0;
+		}
+
+		/* Clase con-1 */ 
+		.con-1 {
+			display: flex;
+			border: 1px solid black;
+		}
+
+		.con-1 div {
+			display: flex;
+			align-items: center;
+		}
+
+		.con-1 input, select {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+		}
+
+		/* Clase Estilos Label */
+
+		.con-1 label {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+
+		/* Clase con-2 y fila-1 */ 
+		#con-titulo-datos-generales {
+			margin: 20px 0 0 0;
+			border: 1px solid black;
+			text-align: center;		
+		}
+
+		.con-2 {
+			margin: 0 0 20px 0;
+			border: 1px solid black;
+			padding: 10px 5px;
+		}
+
+		.con-2 .fila-1 {
+			display: flex;
+			/*border: 1px solid black;*/
+
+			column-gap: 20px;
+		}
+
+		.con-2 .fila-1 div {
+			display: flex;
+			align-items: center;
+
+			border: 1px solid black;
+
+		}
+
+		.con-2 .fila-1 input {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+		}
+
+		.con-2 .fila-1 label {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+		/* Clase con-2 y fila-2 */ 
+
+		.con-2 .fila-2 {
+			display: flex;
+			/*border: 1px solid black;*/
+
+			height: 36.8px;
+			margin: 10px 0;
+			column-gap: 20px;
+		}
+
+		.con-2 .fila-2 div {
+			display: flex;
+			align-items: center;
+			height: 100%;
+
+			border: 1px solid black;
+
+		}
+
+		.con-2 .fila-2 input {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+		}
+
+		.con-2 .fila-2 label {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+		/* Clase con-2 y fila-3 */ 
+
+		.con-2 .fila-3 {
+			display: flex;
+			/*border: 1px solid black;*/
+
+			height: 36.8px;
+			margin: 10px 0;
+
+			column-gap: 20px;
+		}
+
+		.con-2 .fila-3 div {
+			display: flex;
+			align-items: center;
+			height: 100%;
+			border: 1px solid black;
+
+		}
+
+		.con-2 .fila-3 input {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+		}
+
+		.con-2 .fila-3 label {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+		/* Clase con-2 y fila-4 */ 
+
+		.con-2 .fila-4 {
+			display: flex;
+			/*border: 1px solid black;*/
+
+			height: 36.8px;
+			margin: 10px 0;
+
+			column-gap: 120px;
+		}
+
+		.con-2 .fila-4 div {
+			display: flex;
+			align-items: center;
+			height: 100%;
+			border: 1px solid black;
+
+		}
+
+		.con-2 .fila-4 input {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+
+			/*border: none;*/
+		}
+
+		.con-2 .fila-4 label {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+	/*==========================*/
+
+		.radios-alergia-medicamentos input[type="radio"] {
+			display: none;
+		}
+
+		.radios-alergia-medicamentos label:hover {
+			/*background-color: #bbb;*/
+			border: 2px solid blue;
+		}
+
+		.radios-alergia-medicamentos label {
+			display: inline-block;
+			/*background-color: #ddd;*/
+			/*padding: 4px 11px;*/
+			font-size: 16px;
+			cursor: pointer;
+			border: 1px solid black;
+		}
+
+		.radios-alergia-medicamentos input[type="radio"]:checked+label {
+		  background-color: var(--checkedRadioColor);
+		  text-decoration: underline;
+		}
+
+
+		/* Clase con-3 */ 
+		.con-3 {
+			display: flex;
+			/*border: 1px solid black;*/
+			column-gap: 60px;
+		}
+
+		.con-3 .columna-1 {
+			column-gap: 20px;
+		}
+
+		.con-3 div {
+			display: flex;
+			align-items: center;
+		}
+
+		.con-3 input {
+			text-align: center;
+			/*padding: 0 10px;*/
+			height: 100%;
+			width: 100%;
+			font-size: 16px;
+		}
+
+		.con-3 label, span {
+			text-align: center;
+			padding: 0 10px;
+		}
+
+		input#especifiqueAM {
+			pointer-events: none;
+		}
+
+		/* Clase con-4 y template*/ 
+
+		#con-titulo-antecedentes-personales {
+			margin: 20px 0 0 0;
+			border: 1px solid black;
+			text-align: center;		
+		}
+
+		.con-4 {
+			padding: 20px 5px 15px 5px;
+			border: 1px solid black;
+		}
+
+		div.cajas-estilos {
+			padding: 5px 10px 10px 10px;
+			border: 1px solid black;
+		}
+
+		div.radios-estilos {
+			display: flex;
+			justify-content: center;
+		}
+
+		.cajas-estilos span {
+			display: flex;
+			font-size: 8.8px;
+			padding: 0;
+			line-height: 12px;
+			justify-content: center;
+			margin-bottom: 5px;
+
+		}
+
+		/*=============================*/
+
+		.radios-estilos input[type="radio"] {
+		  display: none;
+		}
+
+		.radios-estilos label:hover {
+		  /*background-color: #bbb;*/
+		  border: 2px solid blue;
+		}
+
+		.radios-estilos label {
+		  display: inline-block;
+		  /*background-color: #ddd;*/
+		  /*padding: 4px 11px;*/
+		  font-size: 13.5px;
+		  cursor: pointer;
+		  border: 1px solid black;
+
+		  padding: 2.5px 3px;
+		}
+
+		.radios-estilos input[type="radio"]:checked+label {
+		  background-color: var(--checkedRadioColor);
+		  text-decoration: underline;
+		}
+
+
+		/*con-antecedentes-fila-1*/
+		div.con-antecedentes-fila-1 {
+			display: flex;
+		}
+
+		/* Clase con-5 */ 
+
+		#con-titulo-antecedentes-familiares {
+			margin: 20px 0 0 0;
+			border: 1px solid black;
+			text-align: center;		
+		}
+
+		/* clase con-declaracion */
+		.con-declaracion {
+			width: 65%;
+			margin: 40px auto;
+			/*background-color: lightgreen;*/
+			border: 1px solid black;
+			text-align: center;
+			padding: 5px 0 20px 0;
+		}
+
+		.declaracion-estilos {
+			font-size: 13px;
+		}
+
+
+		/* Zoom button */
+		#z-button {
+			font-size: 15px;
+			padding: 5px;
+			position: absolute;
+			position: fixed;
+			left: 95%;/* 85% */
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		#z-button:hover {
+			background-color: rgba(0, 72, 255, 0.25);
+		}
+
+		div.con-botones input, div.con-botones button {
+ 			padding: 10px 30px; 
+ 			font-size: 15px;"
+ 			border: 2px solid black;
+ 			border-radius: 5px;
+ 			cursor: pointer;
+		}
+
+		.con-botones input:hover, .con-botones button:hover {
+			background-color: rgba(0, 72, 255, 0.25);
+		}
